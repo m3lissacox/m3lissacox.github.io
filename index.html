@@ -1,31 +1,646 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-{% if site.posts %}
-  {% for post in site.posts %}
+  <title>Melissa</title>
+  <meta name="description" content="">
+
+  
+  <link rel="icon" href="/index/assets/ico.png" />
+  
+
+  <link rel="stylesheet" href="/index/assets/main.css">
+  <link rel="canonical" href="http://lily.work/index/">
+  <link rel="alternate" type="application/rss+xml" title="Melissa" href="/index/feed.xml">
+  
+  
+</head>
+
+  <body>
+    <div class="container">
+      <div class="bio">
+  <div class="bio__header">
+  	<a href="http://lily.work/index/">
+	  Melissa Cox
+	</a>
+  </div>
+  <div class="bio__desc">Welcome to my website!  Here is where I accumulate my stash of graphics. Created predominantly with Photoshop and Illustrator.
+</div>
+  
+    <ul class="bio__social">
+      
+        <li><a href="http://linkedin.com/in/melissa-cox-2020" target="_blank">LinkedIn</a></li>
+      
+        <li><a href="https://github.com/m3lissacox" target="_blank">Github</a></li>
+      
+        <li><a href="https://devpost.com/m3lissacox" target="_blank">Devpost</a></li>
+      
+    </ul>
+  
+</div>
+      
+  
     <div class="photos">
       <div class="photos__title">
-        {% if site.date_format %}
-          {{ post.date | date: site.date_format }}
-        {% else %}
-          {{ post.date | date: "%Y-%m-%d" }}
-        {% endif %}
-        |&nbsp;{{ post.title }}
+        
+          January 2018
+        
+        |&nbsp;WATT Swag
       </div>
       <div class="photos__hover-title">
-        <div>{{ post.title }}</div>
+        <div>WATT Swag</div>
       </div>
-      {% for img in post.photos %}
+      
         <div class="photos__img">
-          <a href="#{{ img[0] }}">
-            <img src="{{ img[1] }}" alt="{{ img[0] }}" />
+          <a href="#swag0">
+            <img src="https://orig00.deviantart.net/96b3/f/2018/027/4/4/20180125_134028_by_pixellypie-dc1ctmt.jpg" alt="swag0" />
           </a>
-          <a class="lightbox" id="{{ img[0] }}" href="#_">
-            <img src="{{ img[1] }}" alt="{{ img[0] }}" />
+          <a class="lightbox" id="swag0" href="#_">
+            <img src="https://orig00.deviantart.net/96b3/f/2018/027/4/4/20180125_134028_by_pixellypie-dc1ctmt.jpg" alt="swag0" />
           </a>
         </div>
-      {% endfor %}
+      
+        <div class="photos__img">
+          <a href="#swag1">
+            <img src="https://orig00.deviantart.net/bc5f/f/2018/027/2/9/20180125_133457_by_pixellypie-dc1ctn1.jpg" alt="swag1" />
+          </a>
+          <a class="lightbox" id="swag1" href="#_">
+            <img src="https://orig00.deviantart.net/bc5f/f/2018/027/2/9/20180125_133457_by_pixellypie-dc1ctn1.jpg" alt="swag1" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#swag2">
+            <img src="https://orig00.deviantart.net/9e77/f/2018/027/f/1/20180125_134653_by_pixellypie-dc1ctma.jpg" alt="swag2" />
+          </a>
+          <a class="lightbox" id="swag2" href="#_">
+            <img src="https://orig00.deviantart.net/9e77/f/2018/027/f/1/20180125_134653_by_pixellypie-dc1ctma.jpg" alt="swag2" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#swag3">
+            <img src="https://orig00.deviantart.net/de92/f/2018/027/1/8/20180125_134740_by_pixellypie-dc1ctlu.jpg" alt="swag3" />
+          </a>
+          <a class="lightbox" id="swag3" href="#_">
+            <img src="https://orig00.deviantart.net/de92/f/2018/027/1/8/20180125_134740_by_pixellypie-dc1ctlu.jpg" alt="swag3" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#swag4">
+            <img src="https://orig00.deviantart.net/df49/f/2018/027/f/b/39788023011_a7261f1b85_z_by_pixellypie-dc1ctka.jpg" alt="swag4" />
+          </a>
+          <a class="lightbox" id="swag4" href="#_">
+            <img src="https://orig00.deviantart.net/df49/f/2018/027/f/b/39788023011_a7261f1b85_z_by_pixellypie-dc1ctka.jpg" alt="swag4" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#swag5">
+            <img src="https://orig00.deviantart.net/d99f/f/2018/027/7/4/20180125_134204_by_pixellypie-dc1ctmj.jpg" alt="swag5" />
+          </a>
+          <a class="lightbox" id="swag5" href="#_">
+            <img src="https://orig00.deviantart.net/d99f/f/2018/027/7/4/20180125_134204_by_pixellypie-dc1ctmj.jpg" alt="swag5" />
+          </a>
+        </div>
+      
     </div>
-  {% endfor %}
-{% endif %}
+  
+    <div class="photos">
+      <div class="photos__title">
+        
+          January 2018
+        
+        |&nbsp;Fast Forward to 4AM
+      </div>
+      <div class="photos__hover-title">
+        <div>Fast Forward to 4AM</div>
+      </div>
+      
+        <div class="photos__img">
+          <a href="#ff1">
+            <img src="https://orig00.deviantart.net/542a/f/2017/295/4/2/icondone2_by_pixellypie-dbrexod.png" alt="ff1" />
+          </a>
+          <a class="lightbox" id="ff1" href="#_">
+            <img src="https://orig00.deviantart.net/542a/f/2017/295/4/2/icondone2_by_pixellypie-dbrexod.png" alt="ff1" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#ff2">
+            <img src="https://orig00.deviantart.net/289f/f/2017/295/7/4/icon2_by_pixellypie-dbrexrp.png" alt="ff2" />
+          </a>
+          <a class="lightbox" id="ff2" href="#_">
+            <img src="https://orig00.deviantart.net/289f/f/2017/295/7/4/icon2_by_pixellypie-dbrexrp.png" alt="ff2" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#ff3">
+            <img src="https://orig00.deviantart.net/2c24/f/2017/295/4/3/icon10_by_pixellypie-dbrexqv.png" alt="ff3" />
+          </a>
+          <a class="lightbox" id="ff3" href="#_">
+            <img src="https://orig00.deviantart.net/2c24/f/2017/295/4/3/icon10_by_pixellypie-dbrexqv.png" alt="ff3" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#ff5">
+            <img src="https://orig00.deviantart.net/fbb1/f/2017/295/f/5/icon5_by_pixellypie-dbrexya.png" alt="ff5" />
+          </a>
+          <a class="lightbox" id="ff5" href="#_">
+            <img src="https://orig00.deviantart.net/fbb1/f/2017/295/f/5/icon5_by_pixellypie-dbrexya.png" alt="ff5" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#ff4">
+            <img src="https://orig00.deviantart.net/83a1/f/2017/295/e/8/icon3_by_pixellypie-dbrexyo.png" alt="ff4" />
+          </a>
+          <a class="lightbox" id="ff4" href="#_">
+            <img src="https://orig00.deviantart.net/83a1/f/2017/295/e/8/icon3_by_pixellypie-dbrexyo.png" alt="ff4" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#ff8">
+            <img src="https://orig00.deviantart.net/2776/f/2018/028/d/8/icon11_by_pixellypie-dc1ibkj.png" alt="ff8" />
+          </a>
+          <a class="lightbox" id="ff8" href="#_">
+            <img src="https://orig00.deviantart.net/2776/f/2018/028/d/8/icon11_by_pixellypie-dc1ibkj.png" alt="ff8" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#ff6">
+            <img src="https://orig00.deviantart.net/b6e2/f/2017/295/7/6/cover_photo_final2_by_pixellypie-dbrexo4.png" alt="ff6" />
+          </a>
+          <a class="lightbox" id="ff6" href="#_">
+            <img src="https://orig00.deviantart.net/b6e2/f/2017/295/7/6/cover_photo_final2_by_pixellypie-dbrexo4.png" alt="ff6" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#ff7">
+            <img src="https://orig00.deviantart.net/3aff/f/2018/012/c/7/cover_2018_2_by_pixellypie-dbzqano.png" alt="ff7" />
+          </a>
+          <a class="lightbox" id="ff7" href="#_">
+            <img src="https://orig00.deviantart.net/3aff/f/2018/012/c/7/cover_2018_2_by_pixellypie-dbzqano.png" alt="ff7" />
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="photos">
+      <div class="photos__title">
+        
+          October 2017
+        
+        |&nbsp;HogWATTs Graphics
+      </div>
+      <div class="photos__hover-title">
+        <div>HogWATTs Graphics</div>
+      </div>
+      
+        <div class="photos__img">
+          <a href="#watt16">
+            <img src="https://orig00.deviantart.net/980b/f/2017/292/a/5/email_banners_square_by_pixellypie-dbr3wru.png" alt="watt16" />
+          </a>
+          <a class="lightbox" id="watt16" href="#_">
+            <img src="https://orig00.deviantart.net/980b/f/2017/292/a/5/email_banners_square_by_pixellypie-dbr3wru.png" alt="watt16" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt17">
+            <img src="https://pre00.deviantart.net/3d32/th/pre/f/2017/295/a/b/email_banners2_by_pixellypie-dbrewzx.png" alt="watt17" />
+          </a>
+          <a class="lightbox" id="watt17" href="#_">
+            <img src="https://pre00.deviantart.net/3d32/th/pre/f/2017/295/a/b/email_banners2_by_pixellypie-dbrewzx.png" alt="watt17" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt18">
+            <img src="https://pre00.deviantart.net/3c97/th/pre/f/2017/292/2/c/hogwatts_stretched_by_pixellypie-dbr3wr3.png" alt="watt18" />
+          </a>
+          <a class="lightbox" id="watt18" href="#_">
+            <img src="https://pre00.deviantart.net/3c97/th/pre/f/2017/292/2/c/hogwatts_stretched_by_pixellypie-dbr3wr3.png" alt="watt18" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt19">
+            <img src="https://pre00.deviantart.net/b785/th/pre/f/2017/292/2/f/hogwatts_ribbon_5_by_pixellypie-dbr3wra.png" alt="watt19" />
+          </a>
+          <a class="lightbox" id="watt19" href="#_">
+            <img src="https://pre00.deviantart.net/b785/th/pre/f/2017/292/2/f/hogwatts_ribbon_5_by_pixellypie-dbr3wra.png" alt="watt19" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt20">
+            <img src="https://orig00.deviantart.net/6cd6/f/2017/292/5/7/22426587_1802838886682469_6636788796702358621_o_by_pixellypie-dbr3wsr.jpg" alt="watt20" />
+          </a>
+          <a class="lightbox" id="watt20" href="#_">
+            <img src="https://orig00.deviantart.net/6cd6/f/2017/292/5/7/22426587_1802838886682469_6636788796702358621_o_by_pixellypie-dbr3wsr.jpg" alt="watt20" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt21">
+            <img src="https://orig00.deviantart.net/dc16/f/2017/292/b/d/hogwattshouses_by_pixellypie-dbr3wre.png" alt="watt21" />
+          </a>
+          <a class="lightbox" id="watt21" href="#_">
+            <img src="https://orig00.deviantart.net/dc16/f/2017/292/b/d/hogwattshouses_by_pixellypie-dbr3wre.png" alt="watt21" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt22">
+            <img src="https://orig00.deviantart.net/d99f/f/2018/027/7/4/20180125_134204_by_pixellypie-dc1ctmj.jpg" alt="watt22" />
+          </a>
+          <a class="lightbox" id="watt22" href="#_">
+            <img src="https://orig00.deviantart.net/d99f/f/2018/027/7/4/20180125_134204_by_pixellypie-dc1ctmj.jpg" alt="watt22" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt23">
+            <img src="https://pre00.deviantart.net/91f0/th/pre/i/2018/028/1/3/gryffinductorsquare_by_pixellypie-dc1iad0.png" alt="watt23" />
+          </a>
+          <a class="lightbox" id="watt23" href="#_">
+            <img src="https://pre00.deviantart.net/91f0/th/pre/i/2018/028/1/3/gryffinductorsquare_by_pixellypie-dc1iad0.png" alt="watt23" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt24">
+            <img src="https://pre00.deviantart.net/aa94/th/pre/i/2018/028/4/8/hufflepowersquare_by_pixellypie-dc1iacp.png" alt="watt24" />
+          </a>
+          <a class="lightbox" id="watt24" href="#_">
+            <img src="https://pre00.deviantart.net/aa94/th/pre/i/2018/028/4/8/hufflepowersquare_by_pixellypie-dc1iacp.png" alt="watt24" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt25">
+            <img src="https://pre00.deviantart.net/887d/th/pre/i/2018/028/5/c/slytherohmsquare_by_pixellypie-dc1iad9.png" alt="watt25" />
+          </a>
+          <a class="lightbox" id="watt25" href="#_">
+            <img src="https://pre00.deviantart.net/887d/th/pre/i/2018/028/5/c/slytherohmsquare_by_pixellypie-dc1iad9.png" alt="watt25" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt26">
+            <img src="https://pre00.deviantart.net/faba/th/pre/i/2018/028/b/b/ravencapacitorsquare_by_pixellypie-dc1iadk.png" alt="watt26" />
+          </a>
+          <a class="lightbox" id="watt26" href="#_">
+            <img src="https://pre00.deviantart.net/faba/th/pre/i/2018/028/b/b/ravencapacitorsquare_by_pixellypie-dc1iadk.png" alt="watt26" />
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="photos">
+      <div class="photos__title">
+        
+          March 2017
+        
+        |&nbsp;Women Advancing Tech through Teamwork Banners
+      </div>
+      <div class="photos__hover-title">
+        <div>Women Advancing Tech through Teamwork Banners</div>
+      </div>
+      
+        <div class="photos__img">
+          <a href="#watt1">
+            <img src="https://img00.deviantart.net/d1fc/i/2017/292/c/4/banner4_by_pixellypie-dbr3ws0.png"" alt="watt1" />
+          </a>
+          <a class="lightbox" id="watt1" href="#_">
+            <img src="https://img00.deviantart.net/d1fc/i/2017/292/c/4/banner4_by_pixellypie-dbr3ws0.png"" alt="watt1" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt2">
+            <img src="https://orig00.deviantart.net/b525/f/2017/292/3/e/banner0_by_pixellypie-dbr3wsk.png"" alt="watt2" />
+          </a>
+          <a class="lightbox" id="watt2" href="#_">
+            <img src="https://orig00.deviantart.net/b525/f/2017/292/3/e/banner0_by_pixellypie-dbr3wsk.png"" alt="watt2" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt3">
+            <img src="https://img00.deviantart.net/0997/i/2017/292/4/1/banner3_by_pixellypie-dbr3ws8.png"" alt="watt3" />
+          </a>
+          <a class="lightbox" id="watt3" href="#_">
+            <img src="https://img00.deviantart.net/0997/i/2017/292/4/1/banner3_by_pixellypie-dbr3ws8.png"" alt="watt3" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt4">
+            <img src="https://img00.deviantart.net/aaef/i/2017/292/e/b/banner2_by_pixellypie-dbr3wsf.png"" alt="watt4" />
+          </a>
+          <a class="lightbox" id="watt4" href="#_">
+            <img src="https://img00.deviantart.net/aaef/i/2017/292/e/b/banner2_by_pixellypie-dbr3wsf.png"" alt="watt4" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt5">
+            <img src="https://img00.deviantart.net/7317/i/2018/012/d/9/banner02_by_pixellypie-dbzqb6k.png"" alt="watt5" />
+          </a>
+          <a class="lightbox" id="watt5" href="#_">
+            <img src="https://img00.deviantart.net/7317/i/2018/012/d/9/banner02_by_pixellypie-dbzqb6k.png"" alt="watt5" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt6">
+            <img src="https://img00.deviantart.net/6e5a/i/2018/012/b/5/banner02_by_pixellypie-dbzqb75.png"" alt="watt6" />
+          </a>
+          <a class="lightbox" id="watt6" href="#_">
+            <img src="https://img00.deviantart.net/6e5a/i/2018/012/b/5/banner02_by_pixellypie-dbzqb75.png"" alt="watt6" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt7">
+            <img src="https://img00.deviantart.net/fc41/i/2018/012/7/4/banner02_by_pixellypie-dbzqb7h.png"" alt="watt7" />
+          </a>
+          <a class="lightbox" id="watt7" href="#_">
+            <img src="https://img00.deviantart.net/fc41/i/2018/012/7/4/banner02_by_pixellypie-dbzqb7h.png"" alt="watt7" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt8">
+            <img src="https://img00.deviantart.net/812b/i/2018/012/4/5/banner03_by_pixellypie-dbzqb7x.png"" alt="watt8" />
+          </a>
+          <a class="lightbox" id="watt8" href="#_">
+            <img src="https://img00.deviantart.net/812b/i/2018/012/4/5/banner03_by_pixellypie-dbzqb7x.png"" alt="watt8" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt9">
+            <img src="https://img00.deviantart.net/5540/i/2018/012/9/d/banner04_by_pixellypie-dbzqb8l.png"" alt="watt9" />
+          </a>
+          <a class="lightbox" id="watt9" href="#_">
+            <img src="https://img00.deviantart.net/5540/i/2018/012/9/d/banner04_by_pixellypie-dbzqb8l.png"" alt="watt9" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt11">
+            <img src="https://img00.deviantart.net/a5ee/i/2018/027/6/8/bannernew_by_pixellypie-dc1cjym.png"" alt="watt11" />
+          </a>
+          <a class="lightbox" id="watt11" href="#_">
+            <img src="https://img00.deviantart.net/a5ee/i/2018/027/6/8/bannernew_by_pixellypie-dc1cjym.png"" alt="watt11" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt12">
+            <img src="https://img00.deviantart.net/ddf1/i/2018/027/b/6/banner055_by_pixellypie-dc1ck0e.png"" alt="watt12" />
+          </a>
+          <a class="lightbox" id="watt12" href="#_">
+            <img src="https://img00.deviantart.net/ddf1/i/2018/027/b/6/banner055_by_pixellypie-dc1ck0e.png"" alt="watt12" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt13">
+            <img src="https://img00.deviantart.net/d3d9/i/2018/027/1/0/banner01_by_pixellypie-dc1ck0v.png"" alt="watt13" />
+          </a>
+          <a class="lightbox" id="watt13" href="#_">
+            <img src="https://img00.deviantart.net/d3d9/i/2018/027/1/0/banner01_by_pixellypie-dc1ck0v.png"" alt="watt13" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#watt14">
+            <img src="https://img00.deviantart.net/c176/i/2018/027/f/a/banner05_by_pixellypie-dc1ck1d.png"" alt="watt14" />
+          </a>
+          <a class="lightbox" id="watt14" href="#_">
+            <img src="https://img00.deviantart.net/c176/i/2018/027/f/a/banner05_by_pixellypie-dc1ck1d.png"" alt="watt14" />
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="photos">
+      <div class="photos__title">
+        
+          October 2016
+        
+        |&nbsp;Granny Simulator
+      </div>
+      <div class="photos__hover-title">
+        <div>Granny Simulator</div>
+      </div>
+      
+        <div class="photos__img">
+          <a href="#gs1">
+            <img src="https://pre00.deviantart.net/3b18/th/pre/f/2017/297/a/6/rockthrow_by_pixellypie-dbrml4g.png" alt="gs1" />
+          </a>
+          <a class="lightbox" id="gs1" href="#_">
+            <img src="https://pre00.deviantart.net/3b18/th/pre/f/2017/297/a/6/rockthrow_by_pixellypie-dbrml4g.png" alt="gs1" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs2">
+            <img src="https://pre00.deviantart.net/3a32/th/pre/f/2017/297/3/b/denturegamebg_by_pixellypie-dbrml6w.jpg" alt="gs2" />
+          </a>
+          <a class="lightbox" id="gs2" href="#_">
+            <img src="https://pre00.deviantart.net/3a32/th/pre/f/2017/297/3/b/denturegamebg_by_pixellypie-dbrml6w.jpg" alt="gs2" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs3">
+            <img src="https://pre00.deviantart.net/c2fb/th/pre/f/2017/297/6/5/14876159_1640515779581448_16633218_o_png_by_pixellypie-dbrml3w.jpg" alt="gs3" />
+          </a>
+          <a class="lightbox" id="gs3" href="#_">
+            <img src="https://pre00.deviantart.net/c2fb/th/pre/f/2017/297/6/5/14876159_1640515779581448_16633218_o_png_by_pixellypie-dbrml3w.jpg" alt="gs3" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs4">
+            <img src="https://pre00.deviantart.net/62c0/th/pre/i/2017/297/a/4/grandmpasim_by_pixellypie-dbrmlzn.png" alt="gs4" />
+          </a>
+          <a class="lightbox" id="gs4" href="#_">
+            <img src="https://pre00.deviantart.net/62c0/th/pre/i/2017/297/a/4/grandmpasim_by_pixellypie-dbrmlzn.png" alt="gs4" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs8">
+            <img src="https://pre00.deviantart.net/105d/th/pre/f/2017/297/d/2/losescreen_by_pixellypie-dbrmlaz.png" alt="gs8" />
+          </a>
+          <a class="lightbox" id="gs8" href="#_">
+            <img src="https://pre00.deviantart.net/105d/th/pre/f/2017/297/d/2/losescreen_by_pixellypie-dbrmlaz.png" alt="gs8" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs9">
+            <img src="https://pre00.deviantart.net/8858/th/pre/f/2017/297/0/e/winscreen_by_pixellypie-dbrmlau.png" alt="gs9" />
+          </a>
+          <a class="lightbox" id="gs9" href="#_">
+            <img src="https://pre00.deviantart.net/8858/th/pre/f/2017/297/0/e/winscreen_by_pixellypie-dbrmlau.png" alt="gs9" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs11">
+            <img src="https://orig00.deviantart.net/9322/f/2017/091/d/7/wispyspritessquare3_by_pixellypie-db4cpsp.png" alt="gs11" />
+          </a>
+          <a class="lightbox" id="gs11" href="#_">
+            <img src="https://orig00.deviantart.net/9322/f/2017/091/d/7/wispyspritessquare3_by_pixellypie-db4cpsp.png" alt="gs11" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs10">
+            <img src="https://orig00.deviantart.net/1c55/f/2018/027/4/3/grannyspritenewsquare2_by_pixellypie_db4cptk_by_pixellypie-dc1cryp.png" alt="gs10" />
+          </a>
+          <a class="lightbox" id="gs10" href="#_">
+            <img src="https://orig00.deviantart.net/1c55/f/2018/027/4/3/grannyspritenewsquare2_by_pixellypie_db4cptk_by_pixellypie-dc1cryp.png" alt="gs10" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs5">
+            <img src="https://orig00.deviantart.net/6aeb/f/2017/297/8/b/grannyspritesad_by_pixellypie-dbrml50.png" alt="gs5" />
+          </a>
+          <a class="lightbox" id="gs5" href="#_">
+            <img src="https://orig00.deviantart.net/6aeb/f/2017/297/8/b/grannyspritesad_by_pixellypie-dbrml50.png" alt="gs5" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs6">
+            <img src="https://orig00.deviantart.net/fe86/f/2017/297/d/0/grannyspritehappy_by_pixellypie-dbrmlba.png" alt="gs6" />
+          </a>
+          <a class="lightbox" id="gs6" href="#_">
+            <img src="https://orig00.deviantart.net/fe86/f/2017/297/d/0/grannyspritehappy_by_pixellypie-dbrmlba.png" alt="gs6" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#gs7">
+            <img src="https://orig00.deviantart.net/cc77/f/2017/297/f/5/icon2_by_pixellypie-dbrml0w.png" alt="gs7" />
+          </a>
+          <a class="lightbox" id="gs7" href="#_">
+            <img src="https://orig00.deviantart.net/cc77/f/2017/297/f/5/icon2_by_pixellypie-dbrml0w.png" alt="gs7" />
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="photos">
+      <div class="photos__title">
+        
+          August 2016
+        
+        |&nbsp;Miscellaneous Digital Sketches
+      </div>
+      <div class="photos__hover-title">
+        <div>Miscellaneous Digital Sketches</div>
+      </div>
+      
+        <div class="photos__img">
+          <a href="#bw0">
+            <img src="https://orig00.deviantart.net/d36c/f/2018/027/7/9/01_11_17_whale_sketch_by_pixellypie_dav41l8_by_pixellypie-dc1cs38.png" alt="bw0" />
+          </a>
+          <a class="lightbox" id="bw0" href="#_">
+            <img src="https://orig00.deviantart.net/d36c/f/2018/027/7/9/01_11_17_whale_sketch_by_pixellypie_dav41l8_by_pixellypie-dc1cs38.png" alt="bw0" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#bw1">
+            <img src="http://pre15.deviantart.net/3f16/th/pre/i/2017/091/6/8/squarewhale_by_pixellypie-db4cr1o.png" alt="bw1" />
+          </a>
+          <a class="lightbox" id="bw1" href="#_">
+            <img src="http://pre15.deviantart.net/3f16/th/pre/i/2017/091/6/8/squarewhale_by_pixellypie-db4cr1o.png" alt="bw1" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#bw2">
+            <img src="https://img00.deviantart.net/0cf1/i/2018/027/7/4/01_26_17_study_1_by_pixellypie_dawrnl9_by_pixellypie-dc1cs7q.png" alt="bw2" />
+          </a>
+          <a class="lightbox" id="bw2" href="#_">
+            <img src="https://img00.deviantart.net/0cf1/i/2018/027/7/4/01_26_17_study_1_by_pixellypie_dawrnl9_by_pixellypie-dc1cs7q.png" alt="bw2" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#bw3">
+            <img src="http://pre06.deviantart.net/5e7a/th/pre/i/2017/091/2/d/cat2png_by_pixellypie-db4cptu.png" alt="bw3" />
+          </a>
+          <a class="lightbox" id="bw3" href="#_">
+            <img src="http://pre06.deviantart.net/5e7a/th/pre/i/2017/091/2/d/cat2png_by_pixellypie-db4cptu.png" alt="bw3" />
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="photos">
+      <div class="photos__title">
+        
+          December 2015
+        
+        |&nbsp;Miscellaneous Digital Art
+      </div>
+      <div class="photos__hover-title">
+        <div>Miscellaneous Digital Art</div>
+      </div>
+      
+        <div class="photos__img">
+          <a href="#misc1">
+            <img src="http://img06.deviantart.net/4881/i/2017/034/f/d/02_03_17_standing_by_pixellypie-daxsnaf.png" alt="misc1" />
+          </a>
+          <a class="lightbox" id="misc1" href="#_">
+            <img src="http://img06.deviantart.net/4881/i/2017/034/f/d/02_03_17_standing_by_pixellypie-daxsnaf.png" alt="misc1" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#misc3">
+            <img src="https://orig00.deviantart.net/353a/f/2018/027/c/f/night_by_pixellypie-dc1cs6z.jpg" alt="misc3" />
+          </a>
+          <a class="lightbox" id="misc3" href="#_">
+            <img src="https://orig00.deviantart.net/353a/f/2018/027/c/f/night_by_pixellypie-dc1cs6z.jpg" alt="misc3" />
+          </a>
+        </div>
+      
+        <div class="photos__img">
+          <a href="#misc5">
+            <img src="https://orig00.deviantart.net/31e3/f/2017/091/b/e/deviconpixel_by_pixellypie-db4bh02.png" alt="misc5" />
+          </a>
+          <a class="lightbox" id="misc5" href="#_">
+            <img src="https://orig00.deviantart.net/31e3/f/2017/091/b/e/deviconpixel_by_pixellypie-db4bh02.png" alt="misc5" />
+          </a>
+        </div>
+      
+    </div>
+  
+
+
+    </div>
+  </body>
+
+</html>

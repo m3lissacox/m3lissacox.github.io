@@ -2,9 +2,6 @@
 =======
 Fry is [Louie](https://github.com/lllychen/louie)'s much more graphic-heavy, photogenic brother (still a Jekyll theme tho).
 
-![Home](screenshot.png)
-![Home with hover](screenshot2.png)
-![Photo lightbox](screenshot3.png)
 
 ## Installation
 Add this line to your Jekyll site's Gemfile:
