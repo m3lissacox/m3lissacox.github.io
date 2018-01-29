@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% if site.posts %}
+  {% for post in site.posts %}
+    <div class="photos">
+      <div class="photos__title">
+        {% if site.date_format %}
+          {{ post.date | date: site.date_format }}
+        {% else %}
+          {{ post.date | date: "%Y-%m-%d" }}
+        {% endif %}
+        |&nbsp;{{ post.title }}
+      </div>
+      <div class="photos__hover-title">
+        <div>{{ post.title }}</div>
+      </div>
+      {% for img in post.photos %}
+        <div class="photos__img">
+          <a href="#{{ img[0] }}">
+            <img src="{{ img[1] }}" alt="{{ img[0] }}" />
+          </a>
+          <a class="lightbox" id="{{ img[0] }}" href="#_">
+            <img src="{{ img[1] }}" alt="{{ img[0] }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+{% endif %}
