@@ -20,5 +20,3 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
-
-theme: fry
