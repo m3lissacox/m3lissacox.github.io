@@ -3,10 +3,10 @@
   box-sizing: border-box; }
 
 ::selection {
-  background: #fefeca; }
+  background: #c6fffe; }
 
 ::-moz-selection {
-  background: #fefeca; }
+  background: #c6fffe; }
 
 hr {
   color: #000000;
