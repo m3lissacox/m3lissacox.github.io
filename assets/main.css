@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+* {
+  box-sizing: border-box; }
+
+::selection {
+  background: #fefeca; }
+
+::-moz-selection {
+  background: #fefeca; }
+
+hr {
+  color: #000000;
+  background-color: #000000; }
+
+a {
+  color: #000000;
+  text-decoration: underline; }
+  a:hover {
+    color: #000000; }
+
+html {
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+body {
+  width: 100%;
+  margin: 25px 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.container, .photos__hover-title {
+  max-width: 1200px;
+  margin: 0 25px; }
+
+@media screen and (min-width: 600px) {
+  body {
+    margin: 50px 0 25px; }
+
+  .container, .photos__hover-title {
+    margin: 0 50px; } }
+@media screen and (min-width: 800px) {
+  body {
+    margin: 120px 0 50px; }
+
+  .container, .photos__hover-title {
+    margin: 0 120px; } }
+.bio {
+  max-width: 500px;
+  margin-bottom: 50px; }
+
+.bio__header {
+  margin-bottom: 20px;
+  font-weight: 700; }
+  .bio__header a {
+    text-decoration: none; }
+    .bio__header a:hover {
+      text-decoration: none; }
+
+.bio__social {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none; }
+
+.photos {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+  padding: 20px 0;
+  overflow: hidden; }
+  .photos:first-child {
+    padding-top: 0; }
+  .photos:last-child {
+    border: none; }
+
+.photos__hover-title {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: -1; }
+  .photos__hover-title div {
+    display: table-cell;
+    line-height: 150px;
+    font-weight: 700;
+    font-size: 150px;
+    vertical-align: middle; }
+
+.photos__img {
+  float: left;
+  width: 50%;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  overflow: hidden; }
+  .photos__img img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-bottom: 20px;
+    vertical-align: middle; }
+
+@media screen and (min-width: 600px) {
+  .photos__img {
+    width: 10%;
+    height: 80px;
+    line-height: 80px; }
+    .photos__img img {
+      max-width: 90%;
+      max-height: 90%;
+      margin-bottom: 0; } }
+@media screen and (min-width: 800px) {
+  .photos__img {
+    width: 6.25%;
+    height: 55px;
+    line-height: 55px; } }
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  z-index: 999; }
+  .lightbox:target {
+    outline: none;
+    display: block;
+    cursor: url("cursor.png"), default; }
+  .lightbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    vertical-align: middle; }
