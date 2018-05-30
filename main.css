@@ -107,18 +107,18 @@ body {
 
 @media screen and (min-width: 600px) {
   .photos__img {
-    width: 10%;
-    height: 80px;
-    line-height: 80px; }
+    width: 15%;
+    height: 90px;
+    line-height: 90px; }
     .photos__img img {
       max-width: 90%;
       max-height: 90%;
       margin-bottom: 0; } }
 @media screen and (min-width: 800px) {
   .photos__img {
-    width: 6.25%;
-    height: 55px;
-    line-height: 55px; } }
+    width: 7.5%;
+    height: 80px;
+    line-height: 80px; } }
 .lightbox {
   display: none;
   position: fixed;
