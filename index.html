@@ -4,15 +4,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-
+<div id="all"><!--for background color change-->
   <title>Melissa</title>
   <meta name="description" content="">
 
-  
   <link rel="icon" href="ico.png" />
   
-
-  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="canonical" href="https://m3lissacox.github.io/">
   <link rel="alternate" type="application/rss+xml" title="Melissa" href="/feed.xml">
   
@@ -45,9 +43,40 @@
     </ul>
   
 </div>
-      
+	<div>
+		Color |  
+		<a id="a" style="cursor: pointer; cursor: hand;">dark</a><br>
+      <div id="checkboxes_light">    
+      		Show |					
+			<input type="checkbox" class="css-checkbox" id="check1"   checked="checked"/>
+			<label for="check1" name="checkbox7_lbl" class="css-label lite-plus">Publicity </label>
+			
+			<input type="checkbox" class="css-checkbox" id="check2"  checked="checked"/>
+			<label for="check2" name="checkbox7_lbl" class="css-label lite-plus">Mockups </label>
+			
+			<input type="checkbox" class="css-checkbox" id="check3"  checked="checked"/>
+			<label for="check3" name="checkbox7_lbl" class="css-label lite-plus">Games </label>
+			
+			<input type="checkbox" class="css-checkbox" id="check4" checked="checked"/>
+			<label for="check4" name="checkbox7_lbl" class="css-label lite-plus">Art </label>
+      </div>
+      <div id="checkboxes_dark">
+      		Show |					
+			<input type="checkbox" class="css-checkbox" id="check1"   checked="checked"/>
+			<label for="check1" name="checkbox7_lbl" class="css-label dark-plus">Publicity</label>
+			
+			<input type="checkbox" class="css-checkbox" id="check2"  checked="checked"/>
+			<label for="check2" name="checkbox7_lbl" class="css-label dark-plus">Mockups</label>
+			
+			<input type="checkbox" class="css-checkbox" id="check3"  checked="checked"/>
+			<label for="check3" name="checkbox7_lbl" class="css-label dark-plus">Games</label>
+			
+			<input type="checkbox" class="css-checkbox" id="check4" checked="checked"/>
+			<label for="check4" name="checkbox7_lbl" class="css-label dark-plus">Art</label>
+		</div>
+      </div>
   
-    <div class="photos">
+    <div class="photos games">
       <div class="photos__title">
         
           November 2018
@@ -114,7 +143,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           November 2018
@@ -145,7 +174,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           June 2018
@@ -212,7 +241,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           May 2018
@@ -459,7 +488,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           April 2018
@@ -526,7 +555,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos games">
       <div class="photos__title">
         
           February 2018
@@ -638,7 +667,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           February 2018
@@ -678,7 +707,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos mock">
       <div class="photos__title">
         
           February 2018
@@ -745,7 +774,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           January 2018
@@ -812,7 +841,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           January 2018
@@ -906,7 +935,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos pub">
       <div class="photos__title">
         
           October 2017
@@ -1018,7 +1047,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos mock">
       <div class="photos__title">
         
           July 2017
@@ -1094,7 +1123,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos games">
       <div class="photos__title">
         
           October 2016
@@ -1206,7 +1235,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos art">
       <div class="photos__title">
         
           August 2016
@@ -1255,7 +1284,7 @@
       
     </div>
   
-    <div class="photos">
+    <div class="photos art">
       <div class="photos__title">
         
           December 2015
@@ -1307,6 +1336,10 @@
 
 
     </div>
+    <script src="./jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="./jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+	<script src="main.js"></script>
   </body>
+</div><!--for background color change-->
 
 </html>
