@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel=icon href=old/favicon.ico>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>melissa cox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>melissa cox</h1>
+        <h2>creative developer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://github.com/m3lissacox" target=”_blank”><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="http://linkedin.com/in/melissa-cox-2020" target=”_blank”><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="old/old-index.html" target=”_blank”><i class="fa fa-archive"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>work</h1>
+        <section>
+            <h2>Tech</h2>
+            <p>
+                <p><i class="fab fa-apple" style="color:white;"></i> Apple Intern Project</p>
+                <p><i class="fas fa-cube"  style="color:white;"></i> Rainbow World Minecraft Mod</p>
+                <p><i class="fa fa-archive"  style="color:white;"></i> Portfolio Website</p>                   
+            </p>
+             <h2>Art</h2>
+            <p>
+                Check out my deviantart or my old portfolio website for more art!
+            </p>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about</h1>
+            <section>
+                <h2>Tech + Art</h2>
+                <p>
+                    I'm currently studying Computer Science at UCLA. I am passionate about inclusive design and accessibility, social justice for marginalized groups and individuals, and creating a better future for our planet.
+                </p>
+                <p>
+                     My other passion is bettering myself through the pursuit of art and service. I draw, paint, 3D model, do pixel art, crochet, dance, flow, and DJ. I am happiest when I'm helping others, and I've been fortunate to work in the areas of teaching kids and as part of a harm reduction team at music festivals.
+                </p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <div id="used">
+                    <div><i class="fas fa-circle-o"></i>&nbsp;Swift </div>
+                    <div><i class="fas fa-circle-o"></i>&nbsp;C/C++ </div>
+                    <div><i class="fas fa-circle-o"></i>&nbsp;HTML/CSS/JS </div>
+                    <div><i class="fas fa-circle-o"></i>&nbsp;Java </div>
+                    <div><i class="fas fa-circle-o"></i>&nbsp;git/svn </div>
+                    <div><i class="fas fa-circle-o"></i>&nbsp;Adobe PS/AI </div>
+                </div>
+                <button class="btn_two" onclick="location.href='https://drive.google.com/file/d/1nTeN728LheC7swCpjBFzeUbKkdJAKOiW/view?usp=sharing'" target="_blank" type="button">Resume</button>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact</h1>
+            <section>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="4"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
