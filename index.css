@@ -11,6 +11,9 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
 }
+a:hover{
+    background-color: #a3610a;
+}
 #loading {
     width: 100vw;
     height: 100vh;
