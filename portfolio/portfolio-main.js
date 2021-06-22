@@ -1,8 +1,8 @@
-//portfolio-main.js
+// portfolio-main.js
 $(document).ready(function(){
 	$("#checkboxes_dark").hide();
 
-	//light / dark background
+	// light / dark background
     $('#a').click(function(){
     	if($('#a').html() == "dark"){
     		$("#checkboxes_light").hide();
@@ -23,7 +23,7 @@ $(document).ready(function(){
     	}
     });
 
-    //checkboxes
+    // checkboxes
     $('#check1').change(function () {
         if (!this.checked) {
         	$(".pub").hide();
