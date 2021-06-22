@@ -1,4 +1,4 @@
-//old-main.js
+//portfolio-main.js
 $(document).ready(function(){
 	$("#checkboxes_dark").hide();
 
