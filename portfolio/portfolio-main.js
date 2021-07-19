@@ -1,20 +1,15 @@
 // portfolio-main.js
 $(document).ready(function(){
-	$("#checkboxes_dark").hide();
 
 	// light / dark background
     $('#a').click(function(){
     	if($('#a').html() == "dark"){
-    		$("#checkboxes_light").hide();
-    		$("#checkboxes_dark").show();
     		$('a').css('color', 'white');
 	        $('#all').css('color', 'white');
 	        $('#a').html("light");
 	        $(".photos").css("border-bottom-color", "white");
 			document.body.style.backgroundColor = "black";
     	} else {
-    		$("#checkboxes_dark").hide();
-    		$("#checkboxes_light").show();
     		$('a').css('color', 'black');
 	        $('#all').css('color', 'black');
 	        $('#a').html("dark");	        
