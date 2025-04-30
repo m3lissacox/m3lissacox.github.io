@@ -1,4 +1,4 @@
-// portfolio-main.js
+// main.js
 $(document).ready(function(){
 
 	// light / dark background
