@@ -1,1 +1,0 @@
-Website template by <a href="https://github.com/imfunniee/fimbo">imfunniee</a>.

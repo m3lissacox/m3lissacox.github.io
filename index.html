@@ -1,92 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel=icon href=portfolio/favicon.ico>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>melissa cox</title>
-    <link rel="stylesheet" href="https://cdnjs.buttflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="https://m3lissacox.github.io/portfolio/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="webapp">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <title>webapp</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <div id="particles-js"></div>
-    <div id="box">
-        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
-        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
-    </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>melissa cox</h1>
-        <h2>creative developer</h2>
-        <div id="menu">
-            <a onclick="showabout()">about</a>
-            <a onclick="showwork()">work</a>
-        </div>
-        <table>
-                <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://github.com/m3lissacox" target=”_blank”><i class="fab fa-github"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="http://linkedin.com/in/melissa-cox-2020" target=”_blank”><i class="fab fa-linkedin"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="portfolio/portfolio-index.html" target=”_blank”><i class="fa fa-archive"></i></a></td>
-                </tr>
-        </table>
-    </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>work</h1>
-        <section>
-            <p>
-                I grew up playing games and I've always maintained a love for emerging tech and creative storytelling. My technical side projects include designing UIs, building and maintaining my Minecraft server, developing Minecraft mods, and creating AR Apps using ARKit or Unity with Vuphoria.
-            <p>
-                Check out my <i class="fa fa-archive" style="color:white;"></i> <a href="portfolio/portfolio-index.html" target=”_blank” style="color:white;text-decoration:none;">Portfolio Website</a> for art and past projects!
-            </p>
-            </p>
-            <h2>Skills</h2>
-            <div id="used">
-                <div><i class="fas fa-circle-o"></i>&nbsp;Swift </div>
-                <div><i class="fas fa-circle-o"></i>&nbsp;C/C++ </div>
-                <div><i class="fas fa-circle-o"></i>&nbsp;HTML/CSS/JS </div>
-                <div><i class="fas fa-circle-o"></i>&nbsp;Java </div>
-                <div><i class="fas fa-circle-o"></i>&nbsp;git/svn </div>
-                <div><i class="fas fa-circle-o"></i>&nbsp;Adobe PS/AI </div>
-            </div>
-            <button 
-                class="btn_two" 
-                onclick=" window.open('https://drive.google.com/file/d/1nTeN728LheC7swCpjBFzeUbKkdJAKOiW/view?usp=sharing','_blank')" 
-                target="_blank" 
-                type="button">Resume</button>
-            <button class="btn_two" onclick="location.href='mailto:m3lissa.cox@gmail.com'" target="_blank" type="button">Contact Me</button>
-            
-        </section>
-    </div>
-    <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>about</h1>
-            <section>
-                <h2>Tech + Art</h2>
-                <p>
-                    I'm a UCLA student majoring in Computer Science with a tech breadth in Public Policy and Urban Planning. I am passionate about inclusive design and accessibility, social justice for marginalized groups, and creating a better future for our planet.
-                </p>
-                <p>
-                     My other passion is bettering myself through the pursuit of art and service. I draw, paint, 3D model, do pixel art, crochet, dance, flow, and DJ. I am happiest when I'm helping others, and I've been fortunate to work in the areas of teaching kids and as part of a harm reduction team at music festivals.
-                </p>
-            </section>
-               </div>
-        <div id="footer">
-        </div>
-    <script src="index.js" type="text/javascript"></script>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    var serviceWorkerVersion = '3114871542';
+    var scriptLoaded = false;
+    function loadMainDartJs() {
+      if (scriptLoaded) {
+        return;
+      }
+      scriptLoaded = true;
+      var scriptTag = document.createElement('script');
+      scriptTag.src = 'main.dart.js';
+      scriptTag.type = 'application/javascript';
+      document.body.append(scriptTag);
+    }
+
+    if ('serviceWorker' in navigator) {
+      // Service workers are supported. Use them.
+      window.addEventListener('load', function () {
+        // Wait for registration to finish before dropping the <script> tag.
+        // Otherwise, the browser will load the script multiple times,
+        // potentially different versions.
+        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        navigator.serviceWorker.register(serviceWorkerUrl)
+          .then((reg) => {
+            function waitForActivation(serviceWorker) {
+              serviceWorker.addEventListener('statechange', () => {
+                if (serviceWorker.state == 'activated') {
+                  console.log('Installed new service worker.');
+                  loadMainDartJs();
+                }
+              });
+            }
+            if (!reg.active && (reg.installing || reg.waiting)) {
+              // No active web worker and we have installed or are installing
+              // one for the first time. Simply wait for it to activate.
+              waitForActivation(reg.installing ?? reg.waiting);
+            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+              // When the app updates the serviceWorkerVersion changes, so we
+              // need to ask the service worker to update.
+              console.log('New service worker available.');
+              reg.update();
+              waitForActivation(reg.installing);
+            } else {
+              // Existing service worker is still good.
+              console.log('Loading app from service worker.');
+              loadMainDartJs();
+            }
+          });
+
+        // If service worker doesn't succeed in a reasonable amount of time,
+        // fallback to plaint <script> tag.
+        setTimeout(() => {
+          if (!scriptLoaded) {
+            console.warn(
+              'Failed to load app from service worker. Falling back to plain <script> tag.',
+            );
+            loadMainDartJs();
+          }
+        }, 4000);
+      });
+    } else {
+      // Service workers not supported. Just drop the <script> tag.
+      loadMainDartJs();
+    }
+  </script>
 </body>
 </html>

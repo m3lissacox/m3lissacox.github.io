@@ -21,30 +21,30 @@ $(document).ready(function(){
     // checkboxes
     $('#check1').change(function () {
         if (!this.checked) {
-        	$(".pub").hide();
+        	$(".wear").hide();
         } else {
-        	$(".pub").show();
+        	$(".wear").show();
         }
     });
     $('#check2').change(function () {
         if (!this.checked) {
-        	$(".mock").hide();
+        	$(".flat").hide();
         } else {
-        	$(".mock").show();
+        	$(".flat").show();
         }
     });
     $('#check3').change(function () {
         if (!this.checked) {
-        	$(".games").hide();
+        	$(".toys").hide();
         } else {
-        	$(".games").show();
+        	$(".toys").show();
         }
     });
      $('#check4').change(function () {
         if (!this.checked) {
-        	$(".art").hide();
+        	$(".baby").hide();
         } else {
-        	$(".art").show();
+        	$(".baby").show();
         }
     });
 });
